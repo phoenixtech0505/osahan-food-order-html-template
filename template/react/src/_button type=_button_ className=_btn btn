@@ -1,0 +1,82 @@
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Coordinator Role Assignment</button>
+<div className="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal-dialog member-card-edit-main group-edit-modal cra-modal" role="document">
+    <div className="modal-content">
+        <div className="modal-header">
+        <h5 className="modal-title">
+            <div className="large-font group-edit-modal-title">Coordinator Role Assignment</div>
+            <button type="button" className="close group-edit-modal-close mr-0 px-3">×</button>
+        </h5>
+        </div>
+        <div className="modal-body">
+        <div className="member-card-edit">
+            <div className="member-card-edit-body pt-16">
+            <form>
+                <div className="row">
+                <div className="col-md-12 form-col-space">
+                    <div className="form-group mb-20 modal-checkbox-right">
+                    <div className="theme-checkbox color-checkbox right-checkbox"><label>Shubham<input type="checkbox" /><span className="cr ml-auto"><i className="cr-icon fa fa-check"></i></span>
+                    </label>
+                    </div>
+                    <div className="theme-checkbox color-checkbox right-checkbox">
+                        <label>Ashutosh
+                        <input type="checkbox" /><span className="cr ml-auto"><i className="cr-icon fa fa-check"></i></span>
+                        </label>
+                    </div>
+                    <div className="theme-checkbox color-checkbox right-checkbox">
+                        <label>Shubham
+                        <input type="checkbox" /><span className="cr ml-auto"><i className="cr-icon fa fa-check"></i></span>
+                        </label>
+                    </div>
+                    <div className="theme-checkbox color-checkbox right-checkbox">
+                        <label>John
+                        <input type="checkbox" /><span className="cr ml-auto"><i className="cr-icon fa fa-check"></i></span>
+                        </label>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-md-12 form-col-space">
+                    <button type="submit" className="theme-info theme-info-btn btn-block"><span><span className="mr-0">Save Changes</span></span></button>
+                </div>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModals">Habit Improvement Assignment</button>
+<div className="modal fade" id="exampleModals" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal-dialog member-card-edit-main group-edit-modal hia-modal" role="document">
+    <div className="modal-content">
+        <div className="modal-header">
+        <h5 className="modal-title">
+            <div className="large-font group-edit-modal-title">Habit Improvement Assignment</div>
+            <button type="button" className="close group-edit-modal-close mr-0 px-3">×</button>
+        </h5>
+        </div>
+        <div className="modal-body">
+        <div className="member-card-edit">
+            <div className="member-card-edit-body pt-16">
+            <form>
+                <div className="row">
+                <div className="col-md-12 form-col-space">
+                    <div className="d-flex align-items-center">Habit category:<span className="ml-auto">Association</span></div>
+                </div>
+                <div className="col-md-12 form-col-space">
+                    <button type="submit" className="theme-info theme-info-btn btn-block"><span><span className="mr-0">Save Changes</span></span></button>
+                </div>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

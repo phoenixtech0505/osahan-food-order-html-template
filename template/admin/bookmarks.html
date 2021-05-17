@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="Askbootstrap" />
+      <meta name="author" content="Askbootstrap" />
+      <title>Osahan Eat - Online Food Ordering Website HTML Template</title>
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/png" href="img/favicon.png">
+      <!-- Feather Icon-->
+      <link href="vendor/icons/feather.css" rel="stylesheet" type="text/css">
+      <!-- Fontawesome Icon-->
+      <link href="vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+      <!-- Bootstrap Css -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom Css -->
+      <link href="css/styles.css" rel="stylesheet" />
+      <!-- Datatables css -->
+      <link href="vendor/dataTables/dataTables/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+   </head>
+   <body class="sb-nav-fixed">
+      <nav class="sb-topnav navbar navbar-expand navbar-light bg-white shadow-sm">
+         <a class="navbar-brand" href="index.html"><img alt="logo" src="img/logo.png"></a>
+         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+         <!-- Navbar Search-->
+         <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+            <div class="input-group">
+               <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+               <div class="input-group-append">
+                  <button class="btn btn-primary" type="button"><i class="feather-search"></i></button>
+               </div>
+            </div>
+         </form>
+         <!-- Navbar-->
+         <ul class="navbar-nav ml-auto ml-md-0">
+            <li class="nav-item dropdown no-arrow d-sm-none">
+               <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="feather-search mr-2"></i>
+               </a>
+               <!-- Dropdown - Messages -->
+               <div class="dropdown-menu dropdown-menu-right p-3 shadow-sm animated--grow-in" aria-labelledby="searchDropdown">
+                  <form class="form-inline mr-auto w-100 navbar-search">
+                     <div class="input-group">
+                        <input type="text" class="form-control border-0 shadow-none" placeholder="Search people, jobs and more..." aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                           <button class="btn" type="button">
+                           <i class="feather-search"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1 osahan-list-dropdown">
+               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="feather-message-square"></i>
+                  <!-- Counter - Alerts -->
+                  <span class="badge badge-danger badge-counter">8</span>
+               </a>
+               <!-- Dropdown - Alerts -->
+               <div class="dropdown-list dropdown-menu dropdown-menu-right shadow-sm">
+                  <h6 class="dropdown-header">
+                     Message Center
+                  </h6>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="dropdown-list-image mr-3">
+                        <img class="rounded-circle" src="img/user/2.png" alt="">
+                        <div class="status-indicator bg-success"></div>
+                     </div>
+                     <div class="font-weight-bold overflow-hidden">
+                        <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
+                        <div class="small text-gray-500">Emily Fowler · 58m</div>
+                     </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="dropdown-list-image mr-3">
+                        <img class="rounded-circle" src="img/user/3.png" alt="">
+                        <div class="status-indicator"></div>
+                     </div>
+                     <div class="overflow-hidden">
+                        <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+                        <div class="small text-gray-500">Jae Chun · 1d</div>
+                     </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="dropdown-list-image mr-3">
+                        <img class="rounded-circle" src="img/user/4.png" alt="">
+                        <div class="status-indicator bg-warning"></div>
+                     </div>
+                     <div class="overflow-hidden">
+                        <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
+                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                     </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="dropdown-list-image mr-3">
+                        <img class="rounded-circle" src="img/user/5.png" alt="">
+                        <div class="status-indicator bg-success"></div>
+                     </div>
+                     <div class="overflow-hidden">
+                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
+                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                     </div>
+                  </a>
+                  <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+               </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1 osahan-list-dropdown">
+               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="feather-bell"></i>
+                  <!-- Counter - Alerts -->
+                  <span class="badge badge-info badge-counter">6</span>
+               </a>
+               <!-- Dropdown - Alerts -->
+               <div class="dropdown-list dropdown-menu dropdown-menu-right shadow-sm">
+                  <h6 class="dropdown-header">
+                     Alerts Center
+                  </h6>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="mr-3">
+                        <div class="icon-circle bg-primary">
+                           <i class="fas fa-download text-white"></i>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="small text-gray-500">December 12, 2020</div>
+                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                     </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="mr-3">
+                        <div class="icon-circle bg-success">
+                           <i class="fas fa-edit text-white"></i>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="small text-gray-500">December 7, 2020</div>
+                        $290.29 has been deposited into your account!
+                     </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                     <div class="mr-3">
+                        <div class="icon-circle bg-warning">
+                           <i class="fas fa-folder text-white"></i>
+                        </div>
+                     </div>
+                     <div>
+                        <div class="small text-gray-500">December 2, 2020</div>
+                        Spending Alert: We've noticed unusually high spending for your account.
+                     </div>
+                  </a>
+                  <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+               </div>
+            </li>
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow ml-1 osahan-profile-dropdown">
+               <a class="nav-link dropdown-toggle pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <img class="img-profile rounded-circle" src="img/user/1.png">
+               </a>
+               <!-- Dropdown - User Information -->
+               <div class="dropdown-menu dropdown-menu-right shadow-sm">
+                  <div class="p-3 d-flex align-items-center">
+                     <div class="dropdown-list-image mr-3">
+                        <img class="rounded-circle" src="img/user/1.png" alt="">
+                        <div class="status-indicator bg-success"></div>
+                     </div>
+                     <div class="font-weight-bold">
+                        <div class="text-truncate">Gurdeep Osahan</div>
+                        <div class="small text-gray-500">Restaurants Owner</div>
+                     </div>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="my-profile.html"><i class="feather-edit"></i> My Account</a>
+                  <a class="dropdown-item" href="my-profile.html"><i class="feather-settings"></i> Account Settings</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="sign-in.html"><i class="feather-log-out"></i> Logout</a>
+               </div>
+            </li>
+         </ul>
+      </nav>
+      <div id="layoutSidenav">
+         <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+               <div class="sb-sidenav-menu">
+                  <div class="nav">
+                     <div class="sb-sidenav-menu-heading">Core</div>
+                     <a class="nav-link" href="index.html">
+                        <div class="sb-nav-link-icon"><i class="feather-home"></i></div>
+                        Dashboard
+                     </a>
+                     <a class="nav-link" href="messages.html">
+                        <div class="sb-nav-link-icon"><i class="feather-message-square"></i></div>
+                        Messages
+                     </a>
+                     <a class="nav-link" href="bookings.html">
+                        <div class="sb-nav-link-icon"><i class="feather-calendar"></i></div>
+                        Bookings <span class="badge badge-pill ml-2 badge-primary">6 New</span>
+                     </a>
+                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayoutss" aria-expanded="false" aria-controls="collapseLayoutss">
+                        <div class="sb-nav-link-icon"><i class="feather-list"></i></div>
+                        My listings
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                     </a>
+                     <div class="collapse" id="collapseLayoutss" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                           <a class="nav-link" href="listings.html">Pending <span class="badge badge-pill ml-2 badge-primary">6</span></a>
+                           <a class="nav-link" href="listings.html">Active <span class="badge badge-pill ml-2 badge-success">5</span></a>
+                           <a class="nav-link" href="listings.html">Expired <span class="badge badge-pill ml-2 badge-danger">4</span></a>                                
+                        </nav>
+                     </div>
+                     <a class="nav-link" href="reviews.html">
+                        <div class="sb-nav-link-icon"><i class="feather-star"></i></div>
+                        Reviews
+                     </a>
+                     <a class="nav-link" href="bookmarks.html">
+                        <div class="sb-nav-link-icon"><i class="feather-heart"></i></div>
+                        Bookmarks
+                     </a>
+                     <a class="nav-link" href="add-listing.html">
+                        <div class="sb-nav-link-icon"><i class="feather-plus-circle"></i></div>
+                        Add listing
+                     </a>
+                     <a class="nav-link" href="add-listing-with-menu-list.html">
+                        <div class="sb-nav-link-icon"><i class="feather-book-open"></i></div>
+                        Menu List
+                     </a>
+                     <a class="nav-link" href="orders.html">
+                        <div class="sb-nav-link-icon"><i class="feather-shopping-cart"></i></div>
+                        Orders Page
+                     </a>
+                     <a class="nav-link" href="edit-order.html">
+                        <div class="sb-nav-link-icon"><i class="feather-settings"></i></div>
+                        Edit Order
+                     </a>
+                     <a class="nav-link" href="my-profile.html">
+                        <div class="sb-nav-link-icon"><i class="feather-user"></i></div>
+                        My Profile
+                     </a>
+                     <div class="sb-sidenav-menu-heading">Interface</div>
+                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                        <div class="sb-nav-link-icon"><i class="feather-layout"></i></div>
+                        Layouts
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                     </a>
+                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                           <a class="nav-link" href="layout-static.html">Static Navigation</a>
+                           <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                        </nav>
+                     </div>
+                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                        <div class="sb-nav-link-icon"><i class="feather-book"></i></div>
+                        Pages
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                     </a>
+                     <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                              Authentication
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                           </a>
+                           <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                              <nav class="sb-sidenav-menu-nested nav">
+                                 <a class="nav-link" href="login.html">Login</a>
+                                 <a class="nav-link" href="register.html">Register</a>
+                                 <a class="nav-link" href="password.html">Forgot Password</a>
+                              </nav>
+                           </div>
+                           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                              Error
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                           </a>
+                           <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                              <nav class="sb-sidenav-menu-nested nav">
+                                 <a class="nav-link" href="401.html">401 Page</a>
+                                 <a class="nav-link" href="404.html">404 Page</a>
+                                 <a class="nav-link" href="500.html">500 Page</a>
+                              </nav>
+                           </div>
+                        </nav>
+                     </div>
+                     <div class="sb-sidenav-menu-heading">Addons</div>
+                     <a class="nav-link" href="charts.html">
+                        <div class="sb-nav-link-icon"><i class="feather-pie-chart"></i></div>
+                        Charts
+                     </a>
+                     <a class="nav-link" href="tables.html">
+                        <div class="sb-nav-link-icon"><i class="feather-grid"></i></div>
+                        Tables
+                     </a>
+                  </div>
+               </div>
+               <div class="sb-sidenav-footer">
+                  <div class="small">Logged in as:</div>
+                  Ask Bootstrap
+               </div>
+            </nav>
+         </div>
+         <div id="layoutSidenav_content">
+            <main>
+               <div class="container-fluid">
+                  <h1 class="mt-4">Bookmarks</h1>
+                  <ol class="breadcrumb mb-4">
+                     <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                     <li class="breadcrumb-item active">Bookmarks</li>
+                  </ol>
+                  <div class="row">
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/4.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">Famous Dave's Bar-B-Que
+                                    </a>
+                                 </h6>
+                                 <p class="text-gray mb-3">Vegetarian • Indian • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 15–30 min</span> <span class="float-right text-black-50"> $350 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-danger">OFFER</span> <small> Use Coupon OSAHAN50</small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/5.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">Thai Famous Cuisine</a></h6>
+                                 <p class="text-gray mb-3">North Indian • Indian • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 30–35 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-success">OFFER</span> <small>65% off</small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/6.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">The osahan Restaurant
+                                    </a>
+                                 </h6>
+                                 <p class="text-gray mb-3">North • Hamburgers • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 15–25 min</span> <span class="float-right text-black-50"> $500 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-danger">OFFER</span> <small>65% OSAHAN50</small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/7.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">Stan's Restaurant
+                                    </a>
+                                 </h6>
+                                 <p class="text-gray mb-3">North Indian • Indian • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 15–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-danger">OFFER</span> <small>65% Coupon OSAHAN50</small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/8.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">Polo Lounge
+                                    </a>
+                                 </h6>
+                                 <p class="text-gray mb-3">North Indian • Indian • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 15–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-danger">OFFER</span> <small> Coupon OSAHAN50</small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
+                           <div class="list-card-image">
+                              <div class="star position-absolute"><span class="badge badge-success"><i class="feather-star"></i> 3.1 (300+)</span></div>
+                              <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="feather-heart"></i></a></div>
+                              <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                              <a href="detail.html">
+                              <img src="img/list/9.png" class="img-fluid item-img">
+                              </a>
+                           </div>
+                           <div class="p-3 position-relative">
+                              <div class="list-card-body">
+                                 <h6 class="mb-1"><a href="detail.html" class="text-black">Jack Fry's
+                                    </a>
+                                 </h6>
+                                 <p class="text-gray mb-3">North Indian • Indian • Pure veg</p>
+                                 <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="feather-clock"></i> 15–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                              </div>
+                              <div class="list-card-badge">
+                                 <span class="badge badge-danger">OFFER</span> <small>65% </small>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 text-center load-more">
+                        <button class="btn btn-primary" type="button" disabled="">
+                        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                        </button>   
+                     </div>
+                  </div>
+               </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+               <div class="container-fluid">
+                  <div class="d-flex align-items-center justify-content-between small">
+                     <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                     <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+      <!-- Edit Booking Modal -->
+      <div class="modal fade" id="edit_booking" tabindex="-1" role="dialog" aria-labelledby="edit_bookingLabel" aria-hidden="true">
+         <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="edit_bookingLabel">Reply to review</h5>
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <div class="form-group m-0">
+                     <textarea cols="60" rows="6" class="form-control" spellcheck="false"></textarea>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <a class="btn btn-primary btn-block" href="#">Reply</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Jquery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <!-- Fontawesome -->
+      <script src="vendor/fontawesome/js/all.min.js"></script>
+      <!-- Bootstrap -->
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Custom Js -->
+      <script src="js/scripts.js"></script>
+      <!-- Ajax Chart Js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+      <!-- Chart Js -->
+      <script src="assets/demo/chart-area-demo.js"></script>
+      <script src="assets/demo/chart-bar-demo.js"></script>
+      <script src="assets/demo/chart-pie-demo.js"></script>
+      <!-- Datatable Js -->
+      <script src="vendor/dataTables/dataTables/js/jquery.dataTables.min.js"></script>
+      <script src="vendor/dataTables/dataTables/js/dataTables.bootstrap.min.js"></script>
+      <script src="assets/demo/datatables-demo.js"></script>
+   </body>
+</html>
